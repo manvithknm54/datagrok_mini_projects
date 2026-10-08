@@ -2,7 +2,6 @@
 
 ## Objective
 
-This project implements the Week 5 DataGrokr PLP mini project:
 
 > **Dimensional model + window function report + CTE MoM growth**
 
@@ -289,15 +288,3 @@ git add .
 git commit -m "Add Week 5 SQL dimensional report"
 git push origin main
 ```
-
-## Interview explanation
-
-If asked **"What did you build in Week 5?"**, explain it like this:
-
-> "I built a PostgreSQL analytical reporting project using a small star schema with customer, product and date dimensions around a sales fact table. I used window functions such as RANK, DENSE_RANK, LAG, LEAD and NTILE for analytical reporting. I also used CTEs to calculate month-over-month revenue growth, set operations for customer analysis, and ROLLUP, CUBE and GROUPING SETS for multi-level aggregations. Finally, I created reusable views and used EXPLAIN ANALYZE and indexes to understand query performance."
-
-## Important submission note
-
-The SQL is intentionally written for **PostgreSQL** because the Week 5 topics include PostgreSQL-style analytical features such as `ROLLUP`, `CUBE`, `GROUPING SETS`, `EXPLAIN ANALYZE`, and materialized views.
-
-Do not claim that the screenshots are output from your local PostgreSQL installation until you execute the SQL locally. The screenshots included in this starter submission are generated from the fixed seed dataset for documentation/demo purposes; after your local run, replace them with your own terminal/SQL-client screenshots if your college requires proof of execution.
