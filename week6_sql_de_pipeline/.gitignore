@@ -1,0 +1,5 @@
+*.log
+.env
+.DS_Store
+load_output.txt
+query_output.txt
